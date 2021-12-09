@@ -16,6 +16,8 @@ export class ProductListComponent {
   onNotify() {
     window.alert('The product has been shared!');
   }
+
+  ngOninit() {}
 }
 
 /*
